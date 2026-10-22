@@ -16,7 +16,7 @@ launch = countdown(3)
 print(next(launch))
 print(next(launch))
 print(list(launch))
-print(list(launch))          # ცარიელია, რადგან გენერატორი ერთჯერადია
+print(list(launch))
 
 print(list(squares_up_to(50)))
 print(sum(squares_up_to(100)))
