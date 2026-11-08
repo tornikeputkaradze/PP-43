@@ -26,7 +26,6 @@ print(type(loaded["pair"]))
 
 print(load_json("არარსებული.json", default={}))
 
-# ხელით შევქმნათ არასწორი JSON
 Path("broken.json").write_text('{"name": "ნინო",}', encoding="utf-8")
 print(load_json("broken.json", default="არასწორი ფაილი"))
 
